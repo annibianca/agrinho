@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável - Página Inicial</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos Gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav ul li a.active {
+            background-color: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agricultura Sustentável</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Página Inicial</a></li>
+        
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Bem-vindo à Agricultura Sustentável</h2>
+        <p>Conheça práticas agrícolas que visam maximizar a produtividade e minimizar o impacto ambiental.</p>
+        
+        <section>
+            <h3>O que é Agricultura Sustentável?</h3>
+            <p>A agricultura sustentável é um sistema de práticas agrícolas que busca atender às necessidades atuais de produção de alimentos, sem comprometer as gerações futuras. Ela se baseia em técnicas que respeitam o meio ambiente, promovem a saúde do solo e preservam os recursos naturais.</p>
+        </section>
+
+        <section>
+            <h3>Por que é Importante?</h3>
+            <p>A agricultura sustentável é importante porque ajuda a proteger o meio ambiente, reduzir a degradação do solo, conservar a água e promover a biodiversidade. Além disso, ela contribui para a segurança alimentar global e para a adaptação às mudanças climáticas.</p>
+        </section>
+
+        <section>
+            <h3>Como Praticar?</h3>
+            <p>Existem diversas técnicas de agricultura sustentável, como rotação de culturas, uso de adubos orgânicos, manejo integrado de pragas e conservação de água. É importante que os agricultores e consumidores estejam cientes dessas práticas e as incentivem.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Agricultura Sustentável</p>
+    </footer>
+
+    <script>
+        // Seleciona o cabeçalho
+        const header = document.querySelector('header');
+
+        // Adiciona um evento de mouseover ao cabeçalho
+        header.addEventListener('mouseover', function() {
+            // Gera uma cor aleatória em formato hexadecimal
+            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            
+            // Define a cor de fundo do cabeçalho como a cor aleatória
+            header.style.backgroundColor = randomColor;
+        });
+
+        // Adiciona um evento de mouseout ao cabeçalho
+        header.addEventListener('mouseout', function() {
+            // Retorna a cor de fundo do cabeçalho para verde
+            header.style.backgroundColor = '#4CAF50';
+        });
+    </script>
+
+</body>
+</html> 
